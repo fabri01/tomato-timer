@@ -1,0 +1,94 @@
+/****Font Rules***/
+@font-face {
+  font-family: "bebas-reg";
+  src: url("bebas_neue/BebasNeue Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "bebas-thin";
+  src: url("bebas_neue/BebasNeue Light.otf") format("opentype");
+}
+
+/***General Rules***/
+body {
+  margin: 0;
+}
+
+.tomato-box {
+  background-color: red;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.tomato_logic {
+  margin: 0 auto;
+}
+
+.tomato_logic .tomato-clock {
+  width: 73%;
+  margin: 0 auto;
+}
+
+/***Timer Rules***/
+/**Numer:Number**/
+.tomato-box_minutes,
+.tomato-box_seconds,
+.tomato-box_colum {
+  font-size: 32vw;
+  font-family: bebas-reg;
+  font-weight: bold;
+  text-shadow: 0 3vw darkred;
+}
+
+/**Button**/
+.tomato-controll {
+  width: 71%;
+  max-width: 452px;
+  margin: 0 auto;
+}
+
+.tomato-controll .tomato-start,
+.tomato-controll .tomato-stop {
+  font-family: "bebas-reg";
+  font-size: 1.5em;
+  padding: 0.5em;
+  font-weight: bold;
+  width: 220px;
+}
+
+/***Span(Js generated) Rules***/
+#spanBox {
+  width: 53%;
+  margin: 0 auto;
+  max-width: 165px;
+  margin-top: 3em;
+  padding-bottom: 1em;
+}
+
+#spanBox .spanTomato {
+  color: black;
+  font-family: bebas-thin;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+@media screen and (min-width: 746px) {
+  .tomato-controll {
+    width: 70%;
+  }
+  .tomato-controll .tomato-start,
+  .tomato-controll .tomato-stop {
+    font-size: 2em;
+    padding: 1em;
+  }
+}
+
+@media screen and (min-width: 844px) {
+  .tomato_logic {
+    width: 92%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
