@@ -97,7 +97,7 @@ var tomato = {
     },
 
     break: function(){
-        if(this.countShortBreak == 0 &&  this.countLongBreak == 4){
+        if(this.countShortBreak == 0 &&  this.countLongBreak == 3){
             tomato.notifica("Go outside!");
             this.resetVariables(15, 0, true);
             this.countLongBreak = 0;
