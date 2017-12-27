@@ -1,1 +1,0 @@
-function notifyMe(i){var o={icon:"style/NotifyTomato.png"};if("Notification"in window)if("granted"===Notification.permission)var t=new Notification(i,o);else"denied"!==Notification.permission&&Notification.requestPermission(function(i){if("granted"===i){new Notification(msgm,o)}});else alert("This browser does not support system notifications");setTimeout(t.close.bind(t),2e3)}
